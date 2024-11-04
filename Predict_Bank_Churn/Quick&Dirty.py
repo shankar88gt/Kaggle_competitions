@@ -10,8 +10,6 @@ df1 = pd.read_csv('/Users/shankarmanoharan/VSCode/Kaggle_competitions/Predict_Ba
 df1.drop(columns=['CustomerId','Surname'],axis=1,inplace=True)
 df1.set_index('id',inplace=True)
 
-
-
 X = df.iloc[:, :-1]
 y = df.iloc[:, -1]
 
