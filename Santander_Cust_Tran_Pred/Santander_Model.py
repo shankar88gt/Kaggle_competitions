@@ -34,7 +34,7 @@ y = df.iloc[:, 0]
 from sklearn.linear_model import LogisticRegression
 from xgboost import XGBClassifier
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import cross_val_score
 
 # Standard Scalar for all the numeric features
 scaler = StandardScaler()
